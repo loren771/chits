@@ -836,6 +836,6 @@ Feature: Library
     And I click "LIBRARIES"
     And I click "NTP Lab Exams"
     Then I should see "NTP LAB EXAMS"
-    When I check "Chest X-Ray" from "ntp_labs[]"
+    And I check from "ntp_labs[]"
     And I press "Delete NTP Exam"
     Then I should not see "Chest X-Ray"
