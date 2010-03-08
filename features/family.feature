@@ -22,7 +22,7 @@ Feature: Family Folders
    Scenario: Update Family Folder Details
     Given I am logged in as "user" with password "user"
     And I click "FAMILY FOLDERS"
-    When I fill in "family_number" with "37"
+    When I fill in "family_number" with "1"
     And I press "Search"
     And I should see "SELECTED FAMILY"
     And I click "edit"
